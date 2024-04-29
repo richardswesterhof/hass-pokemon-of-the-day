@@ -40,9 +40,6 @@
         "ghcr.io/devcontainers/features/rust:1": {}
     },
     "runArgs": [
-      "--userns=keep-id"
+      "--privileged"
     ],
-    "containerEnv": {
-      "HOME": "/home/node"
-    }
 }
